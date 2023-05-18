@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My books</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    <style>
+   .order .row{
+  padding:2rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  background:#fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  border-radius: .5rem;
+}
+.order .row .image{
+  flex:1 1 30rem;
+}
+.order .row .image img{
+  height: 0%;
+  width:100%;
+  object-fit: cover;
+  border-radius: .5rem;
+}
+.order .row form{
+  flex:1 1 50rem;
+  padding:1rem;
+}
+.order .row form .inputBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.order .row form .inputBox input, .order .row form textarea{
+  padding:1rem;
+  margin:1rem 0;
+  font-size: 1.7rem;
+  color:#333;
+  text-transform: none;
+  border:.1rem solid rgba(0,0,0,.3);
+  border-radius: .5rem;
+  width:49%;
+}
+.order .row form textarea{
+  width:100%;
+  resize: none;
+  height:15rem;
+}
+.order .row form .btn{
+  background:none;
+}
+.order .row form .btn:hover{
+  background:var(--red);
+}
+  
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+  .carousel-inner img {
+      width: 100%;
+      margin: auto;
+      min-height:200px;
+  }
+
+  
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+   .th,td {
+      border-style: solid;
+      background-color:#FDEDEC ;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"  onclick="document.location='div2,1.html'">Sign Up</a>
+      
+  </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="#">Gallery</a></li>
+        <li class="active"><a href="#">Population</a></li>
+        <li class="active"><a href="#">Interesting</a></li>
+        
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </footer>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://inventure.com.ua/img/thumb.990.660/upload/pic2020-3q/Finance-books.jpg">
+        <div class="carousel-caption">
+        </div> 
+      </div>
+       <div class="item">
+        <img src="https://www.mgpu.ru/wp-content/uploads/2018/01/books2.jpg">
+        <div class="carousel-caption">
+
+        </div>   
+      </div>
+    </div>
+
+    
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-center"><br>    
+  <h1><b>Популярные книги</b></h1><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/2102531/y4xffHYfprPsilWPfiouqw.jpg"style="width:100%" alt="Image">
+      <p><h1>К себе нежно</h1>
+        <h2>2450тг</h2></p>
+      <a href="g.html" target="_blank"><button>Заказать</button></a>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://media.tatler.ru/photos/6200ea62c2876bcfb7da7691/master/w_1600%2Cc_limit/image3.png" class="img-responsive" style="width:100%" alt="Image">
+      <p><h1>Женское сердце</h1>
+        <h2>3445тг</h2></p>
+     <a href="g.html" target="_blank"><button>Заказать</button></a>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://cv9.litres.ru/pub/c/pdf-kniga/cover_415/48723299-said-ilyasov-russkiy-yazyk-tvoya-gramotnost-v-tvoih-rukah-ot-gram-48723299.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p><h1> Твоя грамотность</h1>
+        <h2>6345тг</h2></p>
+      <a href="g.html" target="_blank"><button>Заказать</button></a>
+    </div></div><br>
+    <div class="col-sm-4"> 
+      <img src="https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/c/o/remark_e_m_stanciya_na_gorizonte.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p><h1>Эрих Мария</h1>
+      <h2>7670тг</h2></p>  
+     <a href="g.html" target="_blank"><button>Заказать</button></a>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://sun9-56.userapi.com/impf/c626525/v626525539/1d36f/wL3nHzxpWAY.jpg?size=389x604&quality=96&sign=0068c7a20414fec60296f7c5c2541b46&type=album" class="img-responsive" style="width:100%" alt="Image">
+      <p><h1>Колин Гувер</h1>
+        <h2>6570тг</h2></p>
+       <a href="g.html" target="_blank"><button>Заказать</button></a>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://images.satu.kz/162403434_w700_h500_kniga-knizhnyj-vor.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p><h1>Книжный вор</h1>
+        <h2>4560тг</h2></p>
+       <a href="g.html" target="_blank"><button>Заказать</button></a>
+       <hr>
+    </div><br>
+
+    <h1 align="center"><b>Типы книг</b></h1>
+    <tr align="center">
+  <table width="1125px" height="500px" align="center">
+    </tr>
+
+
+    <tr align="center" >
+      <td width="400px" height="40px" style="background-color:#F5B7B1 ;color: black;"><h3><b>История</b></h3></td>
+<td  align="center" style="background-color:#F5B7B1 ;color: black;" ><h3><b>Фантастик</b></h3></td>
+<td style="background-color:#F5B7B1 ;color: black;"><h3><b>Юмор</b></h3></td>
+</tr>
+<tr align="center">
+      <td width="100px" height="40px"><h3>Оруэл</h3></td>
+<td  align="center"><h3>Гарри Потер</h3></td>
+<td><h3>Том Хенкс</h3></td>
+</tr>
+
+<tr align="center">
+      <td width="80px" height="40px" ><h3>Граница</h3></td>
+<td align="center"><h3>Дракон</h3></td>
+<td><h3>Теффи</h3></td>
+</tr>
+
+<tr align="center">
+      <td width="80px" height="40px"><h3>Империя</h3></td>
+<td align="center"><h3>Матрица</h3></td>
+<td><h3>Вы Гений</h3></td>
+</tr>
+
+<tr align="center">
+      <td width="80px" height="40px"><h3>Ремарк</h3></td>
+<td align="center"><h3>Терминатор</h3></td>
+<td><h3>Рассказы</h3></td>
+</tr>
+
+<tr align="center">
+      <td width="80px" height="40px"><h3>История</h3></td>
+<td align="center"><h3>Аватар</h3></td>
+<td><h3>Сирены Титана</h3></td>
+</tr>
+</table>
+
+<div class="container text-center" style="margin-top: 40px;"><br>    
+<hr><h1 style="margin-bottom: 40px;"><b>Наш библиотека</b></h1>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://s11.favim.com/orig/7/786/7860/78600/hair-library-aesthetic-Favim.com-7860079.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <img src="https://s11.favim.com/orig/7/776/7760/77606/aesthetic-library-books-Favim.com-7760608.jpg" class="img-responsive"  style="width:100% " alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <img src="https://i.pinimg.com/originals/0f/ef/51/0fef51977482354506682d59dbeb61b6.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div><br>
+  </div>
+</div>
+
+
+   
+<section class="footer">
+    <h1 class="credit"> Адрес:  <span> Алматы, Жандосова 55 </span> | Мы вас ждем! </h1>
+    <h5 class="credit"> Телефон:  <span>8777 777 7777 | 8 776 665 555</span></h5>
+    <div  class="share">
+        <a href="https://www.facebook.com" target="_blank" class="btn">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank" class="btn">Twitter</a>
+        <a href="https://www.instagram.com" target="_blank" class="btn">Instagram</a>
+    </div>
+</section>
+
+    
+<footer class="container-fluid text-center" style="background-color:#272829 ; color: white;">
+  <p><h3>Спасибо за Ваше внимание!</h3></p>
+</footer>
+
+
+</body>
+
+
+</body>
+</html>

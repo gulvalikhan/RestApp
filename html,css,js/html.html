@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: #f85c37;   
+}
+
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+#headerwrap {
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+#headerwrap h1 {
+    margin-top: 100%;
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 3px;
+
+}
+
+#headerwrap h2 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.w {
+    padding-top: 35px;
+}
+
+.w h4 {
+    padding-top: 25px;
+}
+
+#dg {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#dg h4 {
+    font-size: 40px;
+}
+
+.tilt {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);  
+}
+
+.wb {
+    padding-top: 35px;
+    margin-bottom: 0;
+}
+
+.wb h4 {
+    font-size: 35px;
+}
+
+#lg {
+    background: #ebebeb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#lg h4 {
+    font-size: 45px;
+}
+
+#r {
+    background: #ff7878;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#r h4 {
+    color: white;
+    font-size: 45px;
+}
+
+#r p {
+    color: white;
+}
+
+#f {
+    background: #2d2d2d;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#f i {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#f i:hover {
+    color: #ff7878;
+}
+    </style>
+  <meta name="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Bootstrap caйт</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rele="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+ <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+   <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+     </button>
+     <a class="navbar-brand" href="#">PR <i class="fa fa-circle"></i>GER</a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Домой</a></li>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Сервисы</a></li>
+            <li><a href="#">Работы</a></li>
+            <li><a href="#"><i class="fa fa-envelope-0" aria-hidden="true"></i></a></li>
+        </ul>
+     </div>
+   </div> 
+  </div>
+  <div id="headerwrap">
+      <div class="container">
+          <div class="row centered">
+              <div class="col-lg-8 col-lg-offset-2">
+                  <h1>Bootstrap is awesome!</h1>
+                  <h2>Сайты на Bootstrap отличные</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container w">
+      <div class="row centered">
+          <br><br>
+          <div class="col-lg-4">
+              <i class="fa fa-heart"></i>
+              <h4>Дизайн</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fa fa-laptop"></i>
+            <h4>Компьютеры</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-lg-4">
+            <i class="fa fa-trophy"></i>
+            <h4>Помощь</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <br><br>
+  </div>
+  <div id="dg">
+      <div class="container">
+          <div class="row centered">
+              <h4>Последние работы</h4>
+              <br>
+              <div class="col-lg-4">
+                  <div class="tilt">
+                      <a href="#"><img src="img/p01.png" alt=""></a>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tilt">
+                    <a href="#"><img src="img/p02.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="tilt">
+                    <a href="#"><img src="img/p03.png" alt=""></a>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <div class="container wb">
+      <div class="row centered">
+          <br><br>
+          <div class="col-lg-8 col-lg-offset-2">
+              <h4>Мы создаем сайты</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p><br><br></p>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-10 col-lg-offset-1">
+            <img src="img/munter.png" alt="" class="img-responsive">
+          </div>
+        </div>
+     </div>
+     <div id="lg">
+         <div class="container">
+             <div class="row centered">
+                 <h4>Партнеры</h4>
+                 <div class="col-lg-2 col-lg-offset-1">
+                     <img src="img/c01.png" alt="">
+                 </div>
+                 <div class="col-lg-2 ">
+                    <img src="img/c02.png" alt="">
+                </div>
+                <div class="col-lg-2 ">
+                    <img src="img/c03.png" alt="">
+                </div>
+                <div class="col-lg-2 ">
+                    <img src="img/c04.png" alt="">
+                </div>
+                <div class="col-lg-2 ">
+                    <img src="img/c05.png" alt="">
+                </div>
+             </div>
+         </div>
+     </div>
+<div id="r">
+  <div class="container">
+      <div class="row centered">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h4>Разработка сайтов на на профессиональным уровне</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+      </div>
+  </div>
+</div>
+<div id="f">
+    <div class="container">
+        <div class="row centered">
+            <a href="#"><i l class="fa fa-twitter"></i></a>
+            <a href="#"><i l class="fa fa-facebook"></i></a>
+            <a href="#"><i l class="fa fa-vk"></i></a>
+        </div>
+    </div>
+</div>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
